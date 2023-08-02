@@ -1,0 +1,28 @@
+.filter-container{
+    
+    width: 80%;
+    padding: .5rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.filter{
+    background-color: #9F3BC0;
+    padding: .5rem 1rem;
+    outline: none;
+    border: none;
+}
+
+.filter-container button:hover{
+    background-color: #3E0070;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.active{
+    background-color: #3E0070;
+    color: #fff;
+    font-weight: 600;
+}

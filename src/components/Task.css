@@ -1,0 +1,60 @@
+.task-container {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #9F3BC0;
+  
+}
+
+.task {
+  display: flex;
+  gap: 15px;
+}
+
+.task p {
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.actions-task {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.actions-task button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  
+}
+
+.checkbox {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background: #fff;
+  border: 2px #ddd solid;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.checkbox--active {
+  border-color: purple;
+  background: purple;
+}

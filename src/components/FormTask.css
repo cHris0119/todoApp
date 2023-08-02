@@ -1,0 +1,37 @@
+.form{
+  background-color: #F2F2F2;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form input{
+  padding: .7rem .5rem;
+  outline: none;
+  border: none;
+}
+
+.form input[type="text"]{
+  flex-grow: 2;
+  background-color: #49007F;
+  color: #fff;
+  font-weight: bold;
+}
+
+.form input[type="text"]::placeholder{
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 600;
+}
+
+.form input[type="submit"]{
+  background-color: #9F3BC0;
+  color: #F2F2F2;
+  font-weight: 700;
+  flex-grow: 1;
+}
+
+.form input[type="submit"]:hover{
+  background-color: #5C00A3;
+  color: #F2F2F2;
+  cursor: pointer;
+}
